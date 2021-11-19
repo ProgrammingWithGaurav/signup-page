@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -5,4 +7,41 @@ body {
     background: #ff7878 url(./images/bg-intro-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 4%;
+}
+
+.about h1 {
+    font-size: 3rem;
+}
+
+.about p {
+    font-size: 0.8rem;
+    margin-top: 0;
+    text-align-last: left;
+    margin-top: -1rem;    
+}
+
+.form {
+    background-color: yellow;
+    width: 50%;
+    height: 100vh;
 }
