@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Manrope', sans-serif;
-    padding: 4rem 0;
+    padding: 7rem 0;
 }
 
 :root {
@@ -142,4 +142,21 @@ body {
 
 p.d-none {
     display: none;
+}
+
+
+/* Making site resopnsive */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .about {
+        width: 90%;
+        text-align: center;
+    }
+    .form {
+        margin-top: 2rem;
+        width: 90%;
+    }
 }
