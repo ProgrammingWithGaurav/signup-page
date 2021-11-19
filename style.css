@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Manrope', sans-serif;
+    padding: 4rem 0;
 }
 
 :root {
@@ -41,7 +42,7 @@ body {
     font-size: 0.8rem;
     margin-top: 0;
     text-align-last: left;
-    margin-top: -1rem;    
+    margin-top: -1rem;
 }
 
 .form {
@@ -62,7 +63,7 @@ body {
     padding: 10px;
     border-radius: var(--border-radius);
     margin-bottom: 1.5rem;
-    
+
 }
 
 .form-card {
@@ -71,8 +72,8 @@ body {
     flex-direction: column;
     padding: 10px;
     width: 80%;
-    height: 60%;
-    border-radius:  var(--border-radius);
+    height: auto;
+    border-radius: var(--border-radius);
     box-shadow: 3px 6px 2px #D86665;
 
 }
@@ -94,7 +95,7 @@ body {
     padding: 8px;
     margin: 10px 0;
     outline: none;
-    border-radius:  var(--border-radius);
+    border-radius: var(--border-radius);
 }
 
 .input:focus {
@@ -104,7 +105,7 @@ body {
 .btn {
     padding: 8px;
     background: #37CC8A;
-    border-radius:  var(--border-radius);
+    border-radius: var(--border-radius);
     border: none;
     color: white;
     font-weight: 600;
@@ -113,12 +114,13 @@ body {
     box-shadow: 2px 1px 3px 0.5px rgb(165, 165, 165);
 }
 
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
     background: #4ce9a2;
     box-shadow: 1px 1px 5px 1px rgb(187, 187, 187);
 }
 
-.form .form-card p{
+.form .form-card p {
     color: #a8a8a8;
     font-size: 10px;
     text-align: center;
@@ -127,4 +129,17 @@ body {
 .form .form-card p span {
     font-weight: 600;
     color: #FBA5A4;
+}
+
+.fa-exclamation-circle {
+    color: #D86665;
+}
+
+.error {
+    display: flex;
+    justify-content: space-around;
+}
+
+p.d-none {
+    display: none;
 }
